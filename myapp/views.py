@@ -1,10 +1,6 @@
 from django.shortcuts import render, redirect
 from .forms import sudokuForm 
-from .sudoku import solve, print_board
-from .solver import Solver
-
-
-
+from .sudoku import solve
 
 
 def main(request):
