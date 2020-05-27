@@ -42,7 +42,7 @@ def main(request):
                     board[i].append(0)
             i = i + 1
 
-        print(board)
+        solve(board) 
 
         yzat = {}
         
